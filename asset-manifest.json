@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/todo_list/static/css/main.5f9eac2e.chunk.css",
+    "main.js": "/todo_list/static/js/main.78e2f3f9.chunk.js",
+    "main.js.map": "/todo_list/static/js/main.78e2f3f9.chunk.js.map",
+    "runtime-main.js": "/todo_list/static/js/runtime-main.d1f46797.js",
+    "runtime-main.js.map": "/todo_list/static/js/runtime-main.d1f46797.js.map",
+    "static/js/2.3727b535.chunk.js": "/todo_list/static/js/2.3727b535.chunk.js",
+    "static/js/2.3727b535.chunk.js.map": "/todo_list/static/js/2.3727b535.chunk.js.map",
+    "index.html": "/todo_list/index.html",
+    "static/css/main.5f9eac2e.chunk.css.map": "/todo_list/static/css/main.5f9eac2e.chunk.css.map",
+    "static/js/2.3727b535.chunk.js.LICENSE.txt": "/todo_list/static/js/2.3727b535.chunk.js.LICENSE.txt",
+    "static/media/main_block-delete-task.css": "/todo_list/static/media/garbage-nosmile.08b628a4.png",
+    "static/media/garbage-smile.7db7bfd5.png": "/todo_list/static/media/garbage-smile.7db7bfd5.png",
+    "static/media/main_block.css": "/todo_list/static/media/main_background.c3713ed1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d1f46797.js",
+    "static/js/2.3727b535.chunk.js",
+    "static/css/main.5f9eac2e.chunk.css",
+    "static/js/main.78e2f3f9.chunk.js"
+  ]
+}
