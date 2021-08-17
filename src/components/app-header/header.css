@@ -1,0 +1,27 @@
+.header {
+  box-sizing: border-box;
+  width: 100%;
+  height: 6rem;
+  background: linear-gradient(to top, rgb(17, 158, 240), rgb(146, 21, 146));
+  border: solid 1px transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__text {
+  background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+  font-size: 3rem;
+  background: linear-gradient(45deg, #10d642 33%, #bc0dbc 66%, #f1ed04);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header__logo {
+  width: 5rem;
+  height: 5rem;
+  background: url(../../images/napoleon.jpg) no-repeat center;
+  background-size: 7rem;
+  border-radius: 50%;
+  border: solid 1px red;
+}

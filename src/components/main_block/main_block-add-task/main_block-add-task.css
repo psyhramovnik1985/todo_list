@@ -1,0 +1,65 @@
+.main__tasks-add-task {
+  margin-bottom: 15px;
+  align-items: center;
+  width: 95%;
+  height: 100px;
+  font-size: 2rem;
+}
+
+.main__tasks-add-task-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.main__tasks-add-task-form-input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+  border: solid 1px rgb(0, 17, 255);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.main__tasks-add-task-form-input:active,
+.main__tasks-add-task-form-input:hover, 
+.main__tasks-add-task-form-input:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+.main__tasks-add-task-form-btn {
+  width: 100%;
+  border: solid 1px rgb(0, 17, 255);
+  box-sizing: border-box;
+  height: 45px;
+  min-height: 1.5rem;
+  border-radius: 7px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+}
+
+.main__tasks-add-task-form-btn:hover {
+  cursor: pointer;
+}
+
+.main__tasks-add-task-form-btn:active {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+@media only all and (max-width: 450px) {
+  .main__tasks-add-task {
+    height: 80px;
+  }
+  
+  .main__tasks-add-task-form-input {
+    height: 30px;
+  }
+
+  .main__tasks-add-task-form-btn {
+    height: 35px;
+    min-height: 1.5rem;
+  }
+}

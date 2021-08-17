@@ -1,0 +1,20 @@
+.footer {
+  text-align: center;
+  min-height: 3.5rem;
+  height: 10vh;
+  border: solid 1px transparent;
+  background-color: rgb(196, 2, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top, rgb(17, 158, 240), rgb(146, 21, 146));
+
+}
+
+.footer__text {
+  margin: 0;
+  font-size: 35px;
+  transform: rotate(3deg);
+  color: rgb(0, 252, 34);
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+}

@@ -1,0 +1,60 @@
+.main__tasks-block-list {
+  align-items: center;
+  width: 95%;
+  height: 44vh;
+  min-height: 150px;
+  border: solid 1px rgb(0, 17, 255);
+  border-radius: 7px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.main__tasks-block-list::-webkit-scrollbar {
+  width: 0px;  /* remove scrollbar space */
+  background: transparent;  
+}
+
+.main__tasks-block-list-item {
+  width: 90%;
+  min-height: 1.5rem;
+  border: solid 1px green;
+  background-color: rgb(4, 243, 16);
+  margin: 2% 0;
+  text-align: center;
+  border-radius: 5px;
+  vertical-align: 2px;
+  padding-top: 2px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.main__tasks-block-list-item:active,
+.main__tasks-block-list-item:hover {
+  cursor: pointer;
+}
+
+.main__tasks-block-list-important li {
+  background-color: rgb(243, 4, 231);
+}
+
+.main__tasks-block-list-current li {
+  background-color: rgb(4, 243, 16);
+}
+
+.main__tasks-block-list-completed li {
+  background-color: rgb(124, 124, 124);
+}
+
+@media only all and (max-width: 450px) {
+  .main__tasks-block-list-item {
+    min-height: 1.2rem;
+    margin: 2% 0;
+    font-size: 0.9rem;
+  }
+}
